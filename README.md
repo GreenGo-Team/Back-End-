@@ -16,11 +16,16 @@ Before you can run this project, make sure you have the following installed:
 1. Clone the Repository:
    > git clone https://github.com/yourusername/yourproject.git
 3. Navigate to the Project Directory:
-   * cd yourproject
-4. Restore the NuGet Packages:
+   > cd yourproject
+4. Set Up the Database:
+   * Update the connection string in the GreenGoDbContext File to point to your SQL Server instance or your chosen database system.
+   * ```csharp
+// This is a Connection String Example
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    optionsBuilder.UseSqlServer("Server = . ; Database = GreenGo ; Trusted_Connection =true; TrustServerCertificate = true");
+}
 
-5. Set Up the Database:
+5. Run Database Migrations (if using EF Core):
 
-6. Run Database Migrations (if using EF Core):
 
-7. 
