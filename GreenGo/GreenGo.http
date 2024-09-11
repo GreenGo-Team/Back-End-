@@ -1,0 +1,6 @@
+@GreenGo_HostAddress = http://localhost:5274
+
+GET {{GreenGo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
