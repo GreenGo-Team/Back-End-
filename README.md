@@ -26,7 +26,7 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     optionsBuilder.UseSqlServer("Server = . ; Database = GreenGo ; Trusted_Connection =true; TrustServerCertificate = true");
 }
 ```
-5. Run Database Migrations (if using EF Core):
+4. Run Database Migrations (if using EF Core):
    * Write The Command: (Updade-DataBase) In The Project Manger Console
 
 
