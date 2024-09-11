@@ -14,7 +14,7 @@ Before you can run this project, make sure you have the following installed:
 
 ## Installation
 1. Clone the Repository:
-   * git clone https://github.com/yourusername/yourproject.git
+   > git clone https://github.com/yourusername/yourproject.git
 3. Navigate to the Project Directory:
    * cd yourproject
 4. Restore the NuGet Packages:
