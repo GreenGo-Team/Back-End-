@@ -19,7 +19,7 @@ Before you can run this project, make sure you have the following installed:
    > cd yourproject
 4. Set Up the Database:
    * Update the connection string in the GreenGoDbContext File to point to your SQL Server instance or your chosen database system.
-   * ```csharp
+ ```csharp
 // This is a Connection String Example
 protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 {
